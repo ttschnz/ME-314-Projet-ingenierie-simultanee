@@ -6,7 +6,7 @@ VarSpeedServo BigServo;
 #define INDUCTIVE_SENSOR_PIN 2
 #define BIG_SERVO_PIN 4
 
-#define SERVO_BOTTOM_ANGLE 0                        // angle of the bottom position
+#define SERVO_BOTTOM_ANGLE 30                      // angle of the bottom position
 #define SERVO_TOP_ANGLE SERVO_BOTTOM_ANGLE + 120    // angle difference to the top position
 
 #define SERVO_SPEED_RISE 75 // speed of the servo. between 1 and 255 (0 for max)
