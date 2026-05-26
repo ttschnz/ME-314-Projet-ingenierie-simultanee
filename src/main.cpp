@@ -13,7 +13,7 @@ VarSpeedServo BigServo;
 #define SERVO_SPEED_FALL 200 // speed of the servo. between 1 and 255 (0 for max)
 
 #define DELAY_START 250 // how long to wait when a signal has come until we start rising
-#define DELAY_RISE 700  // how long to wait for the servo to reach the top position
+#define DELAY_RISE 750  // how long to wait for the servo to reach the top position
 #define DELAY_FALL 500  // how long does the servo take to reach the bottom position
 
 void setup() {
